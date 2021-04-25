@@ -1,0 +1,9 @@
+@charset "UTF-8";
+* { padding: 0; margin: 0; } canvas { background: rgb(255, 196, 196); display: block; margin: 0 auto; }
+
+@media screen and (max-width: 999px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 670px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>アクションゲーム</TITLE>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<meta name=”viewport” content=”width=device-width, initial-scale=1”>
+	<LINK REL="stylesheet" TYPE="text/css" HREF="css/style.css">
+	<SCRIPT TYPE="text/javascript" SRC="js/JSinOne.js"></SCRIPT>
+
+</HEAD>
+<BODY CLASS="eeffee" onLoad="mp_start()">
+	<H1>アクションゲーム：ステップ１</H1>
+	<CANVAS ID="canvas_e" STYLE="background-color: rgb(221, 214, 214);" WIDTH="400" HEIGHT="300"></CANVAS><BR>
+
+	<A HREF="method.htm" TARGET="method"><BUTTON ID="method" CLASS="std">遊び方</BUTTON></A>
+	<BUTTON ID="start" CLASS="std" onClick="gp_start()">ゲーム開始</BUTTON>
+	<BUTTON ID="first" CLASS="std" onClick="st_start()">最初から再開</BUTTON>
+	<BUTTON ID="finish" CLASS="std" onClick="mp.finish()">ゲーム終了</BUTTON>
+</BODY>
+</HTML>
